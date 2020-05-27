@@ -1,0 +1,97 @@
+body {
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: #61122f;
+  background-color: pink;
+  border: 2px solid black;
+}
+
+#header-nav {
+  background-color: #61122f;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+#header-nav button {
+  margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle: focus, .navbar-default .navbar-toggle:hover {
+  background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+  line-height: 75px;
+  height: 75px;
+  padding-top: 0;
+}
+
+.navbar-brand h1 {
+  color: lightblue;
+  font-family: 'Bigshot One', cursive;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.2em;
+  background-color: lightblue;
+}
+
+#nav-list a:hover {
+  color: white;
+  background-color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+
+#main-content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#burger-tile, #Pizza-tile, #Noodles-tile {
+    width: 100%;
+    padding: 20px;
+	  color:black;
+    background-color: lightblue;
+    margin-bottom: 50px;
+    
+}
